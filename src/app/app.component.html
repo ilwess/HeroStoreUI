@@ -2,4 +2,9 @@
   .bg-primary > div {background-color: gray;}
 </style>
 <app-shop></app-shop>
-<router-outlet></router-outlet>
+<div style="width: 100%; position: absolute;">
+  <div style="width: 40%; left: 0px;"></div>
+  <div style="width: 60%; right: 0px;">
+    <router-outlet></router-outlet>
+  </div>
+</div>

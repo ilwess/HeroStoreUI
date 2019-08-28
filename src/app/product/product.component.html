@@ -1,1 +1,8 @@
-<p>product works!</p>
+<div class='hero-item' *ngFor='let prod of products'>
+    <h2>{{ prod.Name }}
+        <button class='btn btn-primary btn-sm' (click)='addToCart(prod)'>Add to cart</button>
+    </h2>
+    {{ prod.Description }}
+    <div class='cost'>{{ prod.Price | currency:"USD":true:"2.2-2" }}</div>
+</div>
+<div *ngFor='let prod of cart.GetProductsFromCart()'>{{ prod.Name }}</div>

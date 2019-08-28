@@ -1,0 +1,19 @@
+.hero-item {
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    border-bottom-left-radius: 20px;
+
+    border-top-style: solid;
+    border-top-color: blue;
+    border-top-right-radius: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 40%;
+}
+.hero-item > h2{
+    text-align: left;
+}
+
+.hero-item > .cost{
+    text-align: right;
+}
