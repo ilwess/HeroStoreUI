@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { ProductComponent } from './product/product.component';
 import { ShopComponent } from './shop/shop.component';
 import { HttpClientModule } from '@angular/common/http';
-import { CartComponent } from './cart/cart.component';
+import { CartSumComponent } from './cartSum/cartSum.component';
 import { Cart } from './cart';
 
 
@@ -15,7 +15,7 @@ import { Cart } from './cart';
     AppComponent,
     ProductComponent,
     ShopComponent,
-    CartComponent
+    CartSumComponent
   ],
   imports: [
     BrowserModule,

@@ -4,11 +4,11 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Cart } from '../cart';
 
 @Component({
-  selector: 'app-cart',
-  templateUrl: './cart.component.html',
-  styleUrls: ['./cart.component.css']
+  selector: 'app-cartSum',
+  templateUrl: './cartSum.component.html',
+  styleUrls: ['./cartSum.component.css']
 })
-export class CartComponent implements OnInit {
+export class CartSumComponent implements OnInit {
   cartProducts : Product[] = [];
   private cartUrl : string = 'http://localhost:51072/api/cart';
   constructor(private http : HttpClient,
